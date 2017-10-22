@@ -1,0 +1,27 @@
+{
+    "name": "sapp/sapp_engine",
+    "description": "Sapp Engine is the official Laravel package for updating the sapp laravel Apps",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "author": {
+        "name": "Andrew Ben Richard ",
+        "email": "andrewbenrichard@gmail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sapp\\Package\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sapp\\Package\\Sapp_engineServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
